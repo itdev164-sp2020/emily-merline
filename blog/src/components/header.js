@@ -4,8 +4,8 @@ import React from "react"
 import styled from 'styled-components'
 
 const Outer = styled.header`
-  background: rebeccapurple;
-  margin-bottom: 1.45em
+  background: ${props => props.theme.header.backgroundColor};
+  margin-bottom: 1.45em;
 `
 const Inner = styled.div`
   margin: 0 auto;
