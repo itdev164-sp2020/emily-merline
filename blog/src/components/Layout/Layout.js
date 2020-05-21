@@ -31,12 +31,12 @@ const Layout = ({ children }) => {
     <GlobalStyle />
       <Header siteTitle={data.site.siteMetadata.title} />
       <Content>
-        <MAIN>{children}</MAIN>
-        <FOOTER>
+        <Main>{children}</Main>
+        <Footer>
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </FOOTER>
+        </Footer>
         </Content>
     </ThemeProvider>
   )
